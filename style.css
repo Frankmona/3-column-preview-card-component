@@ -1,0 +1,130 @@
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+/* @import url(https://fonts.google.com/specimen/Lexend+Deca); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+
+}
+
+.card1{
+    width: 20%;
+    height: 57vh;
+    background-color: hsl(31, 77%, 52%);
+    padding : 0%;
+    padding-top: 9px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.section1{
+  padding: 25px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-stretch:condensed; */
+    color: hsl(0, 0%, 95%);
+    padding-top: 15px;
+    font-size: 27px;
+}
+
+.card1_text{
+    padding-top: 15px;
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+button {
+
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    min-width: 22vh;
+    height: 30px;
+    color:hsl(31, 77%, 52%);
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 25px; 
+    cursor: pointer;
+    
+  }
+
+  button:hover{
+   background-color: transparent;
+   color: hsl(0, 0%, 95%);
+   border: 1px solid hsl(0, 0%, 95%);
+}
+
+  .learn{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .button__section{
+    padding-top: 45px;
+  }
+
+  
+  .card2{
+    width: 20%;
+    height: 57vh;
+    background-color: hsl(184, 100%, 22%);
+    padding : 0%;
+    padding-top: 9px;
+}
+
+.button1 {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    min-width: 22vh;
+    height: 30px;
+    color:hsl(184, 100%, 22%);
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 25px; 
+    cursor: pointer;
+  }
+
+  .card3{
+    width: 20%;
+    height: 57vh;
+    background-color: hsl(179, 100%, 13%);
+    padding : 0%;
+    padding-top: 9px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.button2 {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    min-width: 22vh;
+    height: 30px;
+    color:hsl(179, 100%, 13%);
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 25px; 
+    cursor: pointer;
+  }
+
+  footer{
+    font-size: small;
+    text-align:  center;
+    margin-bottom: 50px;
+  }
+
+  a{
+    text-decoration: none;
+  }
